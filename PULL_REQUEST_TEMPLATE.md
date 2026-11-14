@@ -1,4 +1,4 @@
-<!-- Use simple, concise language. Make the title and description match the final change. -->
+<!-- Follow ASD-STE100 as a guide. Use simple, concise, human-friendly language. Write short sentences and avoid unnecessary complexity. Make the title and description match the final change. -->
 
 ## Problem and change
 

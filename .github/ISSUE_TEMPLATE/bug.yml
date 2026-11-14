@@ -4,7 +4,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use simple, concise language. Describe one problem and a concrete real-world scenario. Separate observed behavior from assumptions. Do not invent steps or evidence.
+        Follow ASD-STE100 as a guide. Use simple, concise, human-friendly language. Write short sentences and avoid unnecessary complexity.
+        Describe one problem and a concrete real-world scenario. Separate observed behavior from assumptions. Do not invent steps or evidence.
         Link related GitHub and Linear issues when available. Add relevant labels and priority.
   - type: textarea
     id: failure

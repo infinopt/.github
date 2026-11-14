@@ -4,7 +4,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use simple, concise language. Describe one user need and a concrete scenario. Separate confirmed requirements from assumptions.
+        Follow ASD-STE100 as a guide. Use simple, concise, human-friendly language. Write short sentences and avoid unnecessary complexity.
+        Describe one user need and a concrete scenario. Separate confirmed requirements from assumptions.
         Link related GitHub and Linear issues when available. Add relevant labels and priority.
   - type: textarea
     id: problem
