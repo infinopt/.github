@@ -1,0 +1,43 @@
+name: Feature request
+description: Describe a user need and the expected outcome.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use simple, concise language. Describe one user need and a concrete scenario. Separate confirmed requirements from assumptions.
+        Link related GitHub and Linear issues when available. Add relevant labels and priority.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who has the problem, and what are they unable to do?
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: User scenario
+      description: Describe a concrete situation and the actions the user needs to take.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected outcome
+      description: Describe what the user should be able to accomplish.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List observable outcomes that would show the need is met. Note any criteria that still need clarification.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add relevant scope, constraints, examples, or links to related GitHub and Linear issues.
+    validations:
+      required: false

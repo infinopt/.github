@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a concrete failure.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use simple, concise language. Describe one problem and a concrete real-world scenario. Separate observed behavior from assumptions. Do not invent steps or evidence.
+        Link related GitHub and Linear issues when available. Add relevant labels and priority.
+  - type: textarea
+    id: failure
+    attributes:
+      label: Failure
+      description: Describe who encounters the failure, what they are trying to do, and what goes wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Give the smallest useful starting state and steps. Include required setup. If reproduction is unknown or intermittent, say so and describe the known conditions.
+      placeholder: |
+        1. Start with ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and evidence
+      description: Describe what happened and include relevant errors, logs, or screenshots. State whether the failure was observed in the product, a test, or fault injection. Remove secrets and personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe what should happen instead. If this is unclear, say so.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Describe observable outcomes that would show the issue is fixed. Note any criteria that still need clarification.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and additional context
+      description: Include the tested version or revision, environment, relevant configuration, and links to evidence or related GitHub and Linear issues.
+    validations:
+      required: false
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Suggested fix
+      description: If known, describe a minimal fix or direction. Distinguish a confirmed root cause from a hypothesis.
+    validations:
+      required: false
